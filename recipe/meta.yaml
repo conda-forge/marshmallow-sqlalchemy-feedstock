@@ -1,6 +1,6 @@
 {% set name = "marshmallow-sqlalchemy" %}
-{% set version = "0.13.1" %}
-{% set sha256 = "f3e1f27c83a013b114c26c8fad59980067030b0db9863b7ff52b31ce85620201" %}
+{% set version = "0.13.2" %}
+{% set sha256 = "9804ef2829f781f469a06528d107c2a763f109c687266ab8b1f000f9684184ae" %}
 
 package:
   name: {{ name|lower }}
@@ -13,12 +13,13 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - marshmallow >=2.0.0
@@ -43,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - frol
+    - igortg
