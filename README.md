@@ -15,12 +15,15 @@ SQLAlchemy integration with the marshmallow (de)serialization library.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/marshmallow-sqlalchemy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/marshmallow-sqlalchemy-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/marshmallow-sqlalchemy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/marshmallow-sqlalchemy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marshmallow-sqlalchemy/badges/version.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marshmallow-sqlalchemy/badges/downloads.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-marshmallow--sqlalchemy-green.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/marshmallow-sqlalchemy.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/marshmallow-sqlalchemy.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/marshmallow-sqlalchemy.svg)](https://anaconda.org/conda-forge/marshmallow-sqlalchemy) |
 
 Installing marshmallow-sqlalchemy
 =================================
