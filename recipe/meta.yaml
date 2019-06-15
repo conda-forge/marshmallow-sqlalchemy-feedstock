@@ -1,6 +1,6 @@
 {% set name = "marshmallow-sqlalchemy" %}
-{% set version = "0.16.3" %}
-{% set sha256 = "24d85d85262dad2efdfc26ec4064e5914e6958312310cb9018d3a19247a1f763" %}
+{% set version = "0.16.4" %}
+{% set sha256 = "9b258becf07afa8499512bb35e37fbb54b625d6b70677165764996ba5a88e9f9" %}
 
 package:
   name: {{ name|lower }}
