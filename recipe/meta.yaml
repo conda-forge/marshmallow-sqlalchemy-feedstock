@@ -1,6 +1,6 @@
 {% set name = "marshmallow-sqlalchemy" %}
-{% set version = "0.22.2" %}
-{% set sha256 = "a370e247216e1a005277d92079d2f0d8d5b0a70fba68ee645730f6a1200991d1" %}
+{% set version = "0.22.3" %}
+{% set sha256 = "9301c6fd197bd97337820ea1417aa1233d0ee3e22748ebd5821799bc841a57e8" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'SQLAlchemy integration with marshmallow'
+  summary: SQLAlchemy integration with marshmallow
 
   description: |
     SQLAlchemy integration with the marshmallow (de)serialization library.
