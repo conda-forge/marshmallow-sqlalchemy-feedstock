@@ -5,9 +5,13 @@ Home: https://github.com/marshmallow-code/marshmallow-sqlalchemy
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marshmallow-sqlalchemy-feedstock/blob/master/LICENSE.txt)
 
 Summary: SQLAlchemy integration with marshmallow
+
+Development: https://github.com/marshmallow-code/marshmallow-sqlalchemy
+
+Documentation: http://marshmallow-sqlalchemy.readthedocs.io/
 
 SQLAlchemy integration with the marshmallow (de)serialization library.
 
