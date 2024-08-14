@@ -151,4 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@frol](https://github.com/frol/)
+* [@mediocretech](https://github.com/mediocretech/)
 
