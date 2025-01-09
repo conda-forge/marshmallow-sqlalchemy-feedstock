@@ -1,6 +1,6 @@
 {% set name = "marshmallow-sqlalchemy" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "20a0f2fcdd5bddc86444fa01461f17f9b6a12a8ddd4ca8c9b34fe2f2e35d00a2" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "9787e95d52dc39f351db1ca47a7ca30b593e4f02b5c54592680bc03ce8ce0e79" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
